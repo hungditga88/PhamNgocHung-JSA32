@@ -1,0 +1,215 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('anime-original-building-city-original-anime-hd-wallpaper-c846fd5890204c88705cc14e089294aa.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+/* Global CSS */
+:root {
+    --primary-color: #4285F4;
+    --yellow-color: #FBBC05;
+    --white-color: #FFFFFF;
+    --black-1-color: #181818;
+    --black-2-color: #747474;
+    --gray-1-color: #DFDFDF;
+    --gray-2-color: #9E9E9E;
+    --gray-3-color: #F8F9FA;
+}
+
+a.btn.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+button.btn.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+a.btn.btn-outline-primary {
+    border: 1px solid var(--primary-color) !important;
+    border-radius: 50px;
+    color: var(--primary-color) !important;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+a.btn.btn-outline-primary:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    height: 93px;
+    padding: 15px 0;
+    transition: all 0.5s ease;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(15px);
+    background: transparent;
+    border-bottom: 1px solid rgba(3, 175, 243, 0.5);
+}
+
+.navbar>.container {
+    padding: 0 15px;
+}
+
+.navbar .nav-item {
+    margin-left: 40px;
+}
+
+.navbar .nav-item .nav-link {
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    font-style: normal;
+    position: relative;
+}
+
+.navbar .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 64px;
+    height: 2px;
+    background-color: var(--white-color);
+    transition: all 0.5s ease;
+    transform: scale(0);
+}
+
+.navbar .nav-item .nav-link.active::before,
+.navbar .nav-item .nav-link:hover::before {
+    transform: scale(0.8);
+}
+
+.navbar a.btn.btn-primary {
+    padding: 0.7rem 1.5rem;
+}
+
+
+.about {
+    width: 100%;
+    padding: 78px 0px;
+
+
+}
+
+.about img {
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.about text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+.about-text h1 {
+    padding-top: 25px;
+    padding-left: 100px;
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    padding-left: 100px;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+
+.about-text p {
+    padding-right: 100px;
+    padding-left: 100px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.about-text ul {
+    padding-right: 100px;
+    padding-left: 100px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.about-text #NgonNgu {
+    padding-left: 100px;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+
+}
+
+.button1 {
+    margin-left: 100px;
+    padding: 0.7rem 1.5rem;
+    background-color: var(--primary-color) !important;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff!important;
+}
+
